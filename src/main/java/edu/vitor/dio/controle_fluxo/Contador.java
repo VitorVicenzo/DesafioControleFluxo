@@ -30,11 +30,6 @@ public class Contador {
         this.parametroDois = parametroDois;
     }
 
-    public void contar(int parametroUm, int parametroDois) throws ParametrosInvalidosException{
-        int contagem = parametroUm - parametroDois;
-        if (parametroUm < parametroDois){
-            throw new ParametrosInvalidosException("O primeiro parâmetro deve ser maior do que o segundo.");
-        }
-    }
+    
     
 }
